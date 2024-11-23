@@ -40,14 +40,14 @@ describe('Counter Component', () => {
   });
 });
 
-describe('Greeting Component', () => {
+describe('Greeting component nama', () => {
   test('Greeting component', () => {
     render(<Greeting name="Hanif" />); 
     const greeting = screen.getByTestId('greeting');
     expect(greeting).toHaveTextContent('Halo, Hanif');
   });
 
-  test('Greeting component', () => {
+  test('Greeting component nama dosen', () => {
     render(<Greeting name="Pak Farid" />); 
     const greeting = screen.getByTestId('greeting');
     expect(greeting).toHaveTextContent('Halo, Pak Farid');
