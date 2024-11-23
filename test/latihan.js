@@ -16,7 +16,7 @@ export const Counter = () => {
 
 // Greeting Component
 export const Greeting = ({ name }) => {
-  return <h1 data-testid="greeting">Hello, {name}</h1>;
+  return <h1 data-testid="greeting">Halo, {name}</h1>;
 };
 
 // AlertButton Component
